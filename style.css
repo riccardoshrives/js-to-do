@@ -95,3 +95,7 @@ form input, form button{
 .complete-btn {
   background: #02c39a;
 }
+
+.fa-check, .fa-trash {
+  pointer-events: none;
+}

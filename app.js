@@ -5,6 +5,7 @@ const todoList = document.querySelector('.todo-list')
 
 // Event Listeners
 todoButton.addEventListener('click', addTodo)
+todoList.addEventListener('click', deleteComplete)
 
 // Functions
 function addTodo(event){
@@ -32,4 +33,18 @@ function addTodo(event){
   todoList.appendChild(todoDiv)
   // Clear todoInput value
   todoInput.value = ''
+}
+
+function deleteComplete(event){
+  const item = event.target
+  // Delete item
+  if (item.classList[0] === 'trash-btn') {
+    const todoItem = item.parentElement
+    todoItem.remove()
+  }
+  // Complete item
+  if (item.classList[0] === 'complete-btn') {
+    const todoItem = item.parentElement
+    todoItem.classList.toggle('completed')
+  }
 }
