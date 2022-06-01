@@ -73,6 +73,7 @@ form input, form button{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.2s ease;
 }
 
 .todo li {
@@ -98,4 +99,9 @@ form input, form button{
 
 .fa-check, .fa-trash {
   pointer-events: none;
+}
+
+.completed {
+  opacity: 0.5;
+  text-decoration: line-through;
 }
