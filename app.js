@@ -15,7 +15,7 @@ function addTodo(event){
   todoDiv.classList.add('todo')
   // Create li inside div
   const newTodo = document.createElement('li')
-  newTodo.innerText = 'heyo'
+  newTodo.innerText = todoInput.value
   newTodo.classList.add('todo-item')
   todoDiv.appendChild(newTodo)
   // Item complete button
@@ -30,4 +30,6 @@ function addTodo(event){
   todoDiv.appendChild(trashButton)
   // append to ul
   todoList.appendChild(todoDiv)
+  // Clear todoInput value
+  todoInput.value = ''
 }
