@@ -5,8 +5,8 @@
 }
 
 body {
-  background-image: linear-gradient(120deg, #f6d365, #fda085);
-  color: white;
+  background-image: linear-gradient(120deg, #eff4f4, #dbecf0);
+  color: #293241;
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
 }
@@ -35,12 +35,12 @@ form input, form button{
 
 .todo-button {
   border-radius: 0 0.1em 0.1em 0;
-  color: #ef9278;
+  color: #ee6c4d;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .todo-button:hover{
-  background: #ef9278;
+  background: #ee6c4d;
   color: white;
 }
