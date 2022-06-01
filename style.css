@@ -105,3 +105,8 @@ form input, form button{
   opacity: 0.5;
   text-decoration: line-through;
 }
+
+.fall {
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;
+}
