@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(120deg, #f6d365, #fda085);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  font-size: 1.5rem;
+}
+
+header, form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input, form button{
+  padding: 0.5rem 0.75rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+
+.todo-input {
+  border-radius: 0.1em 0 0 0.1em;
+}
+
+.todo-button {
+  border-radius: 0 0.1em 0.1em 0;
+  color: #ef9278;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.todo-button:hover{
+  background: #ef9278;
+  color: white;
+}
