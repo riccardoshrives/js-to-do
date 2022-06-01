@@ -79,6 +79,10 @@ form input, form button{
   flex: 1;
 }
 
+.todo-item {
+  padding: 0 0.75rem;
+}
+
 .complete-btn, .trash-btn {
   background: var(--accent-color);
   color: var(--font-color);
