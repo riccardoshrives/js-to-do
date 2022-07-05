@@ -1,6 +1,8 @@
-# JS To-Do List
-## A Beginner Vanilla Javascript Project
-<hr>
-This small project is just a todo list in vanilla js.
+<h2 align="center"> ━━━━━━  ❖  ━━━━━━ </h2>
 
-Full credit goes to Dev Ed. I'm simply following this tutorial: [Beginner Vanilla Javascript Project Tutorial](https://youtu.be/Ttf3CEsEwMQ)
+## 📋 Javascript To-Do List <img alt="" align="right" src="https://badges.pufler.dev/visits/riccardoshrives/Rock-Paper-Scissors?style=for-the-badge&color=A7D9B2&logoColor=white&labelColor=1C2325"/>
+
+This was my second ever **Javascript** project. It's just a basic todo list in vanilla js. I followed [this tutorial from Dev Ed](https://youtu.be/Ttf3CEsEwMQ) but also made some modifications.
+
+
+### My modifications:
