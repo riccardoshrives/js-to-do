@@ -10,10 +10,10 @@ todoList.addEventListener('click', deleteComplete)
 filterOption.addEventListener('click', filterTodo)
 
 // Functions
-function addTodo(event){
+function addTodo(event) {
   // Prevent form from submitting
   event.preventDefault()
-  if (todoInput.value){
+  if (todoInput.value) {
     // Create todo div
     const todoDiv = document.createElement('div')
     todoDiv.classList.add('todo')
@@ -37,18 +37,18 @@ function addTodo(event){
     // Clear todoInput value
     todoInput.value = ''
   }
-  
+
 }
 
-function deleteComplete(event){
+function deleteComplete(event) {
   const item = event.target
   // Delete item
   if (item.classList[0] === 'trash-btn') {
     const todoItem = item.parentElement
     todoItem.classList.add('fall')
-    todoItem.addEventListener( 'transitionend', function(){
+    todoItem.addEventListener('transitionend', function() {
       todoItem.remove()
-    } )
+    })
   }
   // Complete item
   if (item.classList[0] === 'complete-btn') {
@@ -59,8 +59,8 @@ function deleteComplete(event){
 
 function filterTodo(e) {
   const todos = todoList.childNodes
-  todos.forEach(function(todo){
-    switch(e.target.value){
+  todos.forEach(function(todo) {
+    switch (e.target.value) {
       case "all":
         todo.style.display = 'flex'
         break;
